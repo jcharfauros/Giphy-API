@@ -28,14 +28,12 @@ function displayGiphy(giphy) {
         
     let giphyTitle = document.createElement('h2');
     giphyTitle.innerText = giphy.data.title; 
-    
-    // let username = document.createElement('h3');
-    // username.innerText = 'Creator: ' + giphy.data.username;
-    // if (!username.length) {
-    //     console.log('No creator name found!');
-    // } 
+        
     let giphyLink = document.createElement('a');
-    giphyLink.innerText = giphy.data.bitly_gif_url;
+    giphyLink.href = giphy.data.bitly_gif_url;
+    giphyLink.target = '_blank';
+    giphyLink.textContent = 'Add to favorites on Giphy';
+    // giphyLink.textContent = giphy.data.title;
 
     let fetchImg = giphy.data.images.fixed_height.url;    
     let img = document.createElement('img');
@@ -43,6 +41,7 @@ function displayGiphy(giphy) {
         
     displayFetch.appendChild(img);
     displayFetch.appendChild(giphyTitle);
+    displayFetch.appendChild(giphyLink);
     // displayFetch.appendChild(username);
 
     

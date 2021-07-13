@@ -18,6 +18,7 @@ body {
     background-color: black;
     color: white;
     background-image: url(./assets/giphyBG.png);
+    background-size: cover;
     background-repeat: repeat;
 }
 
@@ -25,17 +26,9 @@ body {
     padding-top: 20px;
     width: 80%;
     margin: 0 auto;
+    /* align-items: center; */
     /* display: flex; */
 }
-/* 
-.controls, .results {
-    flex: 1;
-    padding: 10px;
-} */
-
-/* form p:nth-of-type(1) {
-    margin-top: 0;
-} */
 
 #label1 {
     color: violet;
@@ -66,8 +59,10 @@ h2 span {
 
 h3 {
     color: violet;
+    font-family: 'Yomogi', cursive;
     font-size: 26px;
     text-shadow: 2px 2px turquoise;
+    text-align: center;
 }
 h3 span {
     background-color: white;
@@ -106,4 +101,17 @@ img {
 .btn-light:hover, .btn-light:focus, .btn-light:active {
     color: green;
     border-color: thistle;
+}
+
+a:link {
+    font-family: 'Yomogi', cursive;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline wavy;
+    color: teal;
 }
