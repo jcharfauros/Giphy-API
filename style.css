@@ -1,0 +1,109 @@
+/* 
+font-family: 'Major Mono Display', monospace;
+font-family: 'VT323', monospace;
+font-family: 'Yomogi', cursive;
+*/
+@font-face {
+    font-family: CuteBunny;
+    src: url(./assets/CuteBunny.ttf);
+}
+@font-face {
+    font-family: CuteBold;
+    src: url(./assets/CuteBold.ttf);
+}
+
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    background-image: url(./assets/giphyBG.png);
+    background-repeat: repeat;
+}
+
+.wrapper {
+    padding-top: 20px;
+    width: 80%;
+    margin: 0 auto;
+    /* display: flex; */
+}
+/* 
+.controls, .results {
+    flex: 1;
+    padding: 10px;
+} */
+
+/* form p:nth-of-type(1) {
+    margin-top: 0;
+} */
+
+#label1 {
+    color: violet;
+    /* font-family: 'Major Mono Display', monospace;; */
+    font-family: CuteBunny;
+    text-shadow: 2px 2px #16B59D;
+    font-size: 8em;
+    /* font-weight: bolder; */
+}
+
+h1 {
+    text-align: center;
+    color: teal;
+}
+h1 span {
+    background-color: white;
+}
+
+h2 {
+    font-size: 3em;
+    font-family: 'VT323', monospace;
+    color: #16B59D;
+    text-shadow: 2px 2px #9D16B5;
+}
+h2 span {
+    background-color: white;
+}
+
+h3 {
+    color: violet;
+    font-size: 26px;
+    text-shadow: 2px 2px turquoise;
+}
+h3 span {
+    background-color: white;
+}
+
+nav {
+    margin-bottom: 50px;
+}
+
+.prev {
+    float: left;
+}
+
+.next {
+    float: right;
+}
+
+img {
+    float: left;
+    /* margin-left: 10px; */
+    padding-right: 20px;
+    border-radius: 50px;
+}
+
+.giphy-section {
+    background-color: violet;
+    /* padding: 0px 50px 50px 50px; */
+}
+
+.btn-light {
+    color: rgb(70, 255, 199);
+    background: violet;
+    font-size: 20px;
+}
+
+.btn-light:hover, .btn-light:focus, .btn-light:active {
+    color: green;
+    border-color: thistle;
+}
