@@ -23,20 +23,16 @@ body {
 }
 
 .wrapper {
-    padding-top: 20px;
+    padding-top: 10px;
     width: 80%;
     margin: 0 auto;
-    /* align-items: center; */
-    /* display: flex; */
 }
 
 #label1 {
     color: violet;
-    /* font-family: 'Major Mono Display', monospace;; */
     font-family: CuteBunny;
     text-shadow: 2px 2px #16B59D;
-    font-size: 8em;
-    /* font-weight: bolder; */
+    font-size: 8em;    
 }
 
 h1 {
@@ -48,48 +44,30 @@ h1 span {
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 2em;
+    font-weight: bolder;
     font-family: 'VT323', monospace;
     color: #16B59D;
     text-shadow: 2px 2px #9D16B5;
 }
 h2 span {
-    background-color: white;
+    background-color: white;    
 }
 
 h3 {
     color: violet;
     font-family: 'Yomogi', cursive;
     font-size: 26px;
-    text-shadow: 2px 2px turquoise;
-    text-align: center;
+    text-shadow: 1px 1px white;
 }
 h3 span {
-    background-color: white;
-}
-
-nav {
-    margin-bottom: 50px;
-}
-
-.prev {
-    float: left;
-}
-
-.next {
-    float: right;
+    background-color: green;
 }
 
 img {
     float: left;
-    /* margin-left: 10px; */
     padding-right: 20px;
     border-radius: 50px;
-}
-
-.giphy-section {
-    background-color: violet;
-    /* padding: 0px 50px 50px 50px; */
 }
 
 .btn-light {
@@ -106,12 +84,25 @@ img {
 a:link {
     font-family: 'Yomogi', cursive;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bolder;
-    color: white;
+    color: violet;
+    background-color: #fff;
 }
 
 a:hover {
     text-decoration: underline wavy;
     color: teal;
+}
+
+a:visited {
+    color: violet;
+}
+
+#button-fetch {
+    /* line-height: 5; */
+}
+
+#display-fetch {
+    padding-top: 20px;
 }
